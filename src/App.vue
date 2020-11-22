@@ -118,7 +118,7 @@
 import Vue from "vue";
 import { Dictionary } from "vue-router/types/router";
 import { mapGetters } from "vuex";
-import products from "./store/modules/products";
+// import products from "./store/modules/products";
 
 export default Vue.extend({
   name: "App",
@@ -133,7 +133,7 @@ export default Vue.extend({
     }
   },
   methods: {
-    goTo(route: any, params: Dictionary<string> | undefined) {
+    goTo(route: string, params: Dictionary<string> | undefined) {
       this.$router.push({ name: route, params: { ...params } });
     }
   },
