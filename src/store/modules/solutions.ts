@@ -100,10 +100,8 @@ const solutions = {
     },
     getImages(state: { items: string | any[] }) {
       return (id: string | number) => {
-        let found = false;
         for (let index = 0; index < state.items.length; index++) {
           if (state.items[index].id === id) {
-            found = true;
             return state.items[index].images;
           }
         }

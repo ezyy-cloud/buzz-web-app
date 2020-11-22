@@ -74,7 +74,6 @@ const carts = {
         for (let index = 0; index < state.items.length; index++) {
           if (state.items[index].id === id) {
             found = true;
-            console.log(state.items[index].quantity);
             return state.items[index].quantity;
           }
         }
