@@ -72,6 +72,10 @@ const services = {
       {
         title: "BuzzPOI",
         id: "542m343jy5khj54"
+      },
+      {
+        title: "BuzzFi",
+        id: "542m343jy5khj54hklgkhgbhb"
       }
     ]
   }),
