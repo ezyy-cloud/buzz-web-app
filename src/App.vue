@@ -31,12 +31,7 @@
         {{ route.title }}
       </v-btn>
 
-      <v-btn
-        outlined
-        class="mr-3 d-none d-sm-block"
-        color="orange"
-        to="https://cms.buzz.ezyy.cloud/ghost"
-      >
+      <v-btn outlined class="mr-3 d-none d-sm-block" color="orange">
         Studio
       </v-btn>
 
