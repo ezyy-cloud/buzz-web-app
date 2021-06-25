@@ -88,7 +88,7 @@ const products = {
         reviews: [3, 4, 4, 2, 4, 4],
         about: [
           `BuzzFi Node is a device which connects spaces to the internet via the BuzzFi network
-                    providing the space occupants with 2G and 5G bandwidth for uninterrupted web access suitable
+                    providing the space occupants with 2GHz and 5GHz bandwidth for uninterrupted web access suitable
                     for heavy users. BuzzFi is powered by Ubiquiti, a trusted internet solutions provider.`,
 
           `BuzzFi Nodes generate income for public location owners who wish to monetise 
