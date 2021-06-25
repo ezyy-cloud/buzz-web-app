@@ -31,12 +31,8 @@
         {{ route.title }}
       </v-btn>
 
-      <v-btn outlined class="mr-3 d-none d-sm-block" color="orange">
-        Studio
-      </v-btn>
-
       <v-btn color="purple" depressed dark class="d-none d-sm-block">
-        Console
+        App
       </v-btn>
 
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer">
