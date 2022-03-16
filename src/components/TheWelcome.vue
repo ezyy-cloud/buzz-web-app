@@ -1,18 +1,23 @@
 <script setup lang="ts">
 import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import BuzzISPIcon from './icons/IconBuzzISP.vue'
+import BuzzLocationsIcon from './icons/IconBuzzLocations.vue'
+import BuzzEyeIcon from './icons/IconBuzzEye.vue'
+import BuzzFiIcon from './icons/IconBuzzFi.vue'
+import BuzzTVIcon from './icons/IconBuzzTV.vue'
+import BuzzAdIcon from './icons/IconBuzzAd.vue'
+import BuzzWingIcon from './icons/IconBuzzWing.vue'
+import BuzzPosIcon from './icons/IconBuzzPos.vue'
 </script>
 
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+      <BuzzFiIcon />
     </template>
-    <template #heading>BuzzFi</template>
+    <template #heading>
+      <a href="https://buzzfi.ezyy.cloud">BuzzFi</a>
+    </template>
       Connect to the internet anytime, anywhere with BuzzFi. We
       have placed hotspots all over to enable you to connect online
       whenever you need to. Become a BuzzFi user and stay connected every moment.
@@ -20,7 +25,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+      <BuzzISPIcon />
     </template>
     <template #heading>BuzzISP</template>
       Connectivity has become a the strength of every enterprise.
@@ -31,7 +36,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <BuzzEyeIcon />
     </template>
     <template #heading>BuzzEye</template>
       Security has become a neccessity in all forms. BuzzEye 
@@ -42,7 +47,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <BuzzLocationsIcon />
     </template>
     <template #heading>BuzzLocations</template>
       BuzzLocations's Hive solutions instantly connects any public
@@ -54,7 +59,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+      <BuzzTVIcon />
     </template>
     <template #heading>BuzzTV</template>
       Monetize your wall space and do much more with BuzzTV. The 
@@ -66,7 +71,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+      <BuzzAdIcon />
     </template>
     <template #heading>BuzzAds</template>
       BuzzAds are embedded in many of our products and services to 
@@ -77,7 +82,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+      <BuzzWingIcon />
     </template>
     <template #heading>BuzzWing</template>
       Get a drone for your next surveillance, photoshoot or exploration trip
@@ -88,7 +93,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+      <BuzzPosIcon />
     </template>
     <template #heading>BuzzPOS</template>
       Receiving payments has never been easy like this. BuzzPOS is an intergrated point 
