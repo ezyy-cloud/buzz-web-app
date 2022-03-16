@@ -25,6 +25,33 @@ import BuzzPosIcon from './icons/IconBuzzPos.vue'
 
   <WelcomeItem>
     <template #icon>
+      <BuzzTVIcon />
+    </template>
+    <template #heading>
+      <a href="https://buzztv.ezyy.cloud">BuzzTV</a>
+    </template>
+      Monetize your wall space and do much more with BuzzTV. The 
+      digital signage display network allows location owners to 
+      monetize traffic in their spaces and provide information to 
+      enable their customers to navigate and explore their products and
+      services.
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <BuzzAdIcon />
+    </template>
+    <template #heading>
+      <a href="https://buzzad.ezyy.cloud">BuzzAds</a>
+    </template>
+      BuzzAds are embedded in many of our products and services to 
+      ensure your advertising message reaches your target customer 
+      in the right way. BuzzTV is our main advertising channel opening 
+      up advertising space in multiple locations with large traffic.
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
       <BuzzISPIcon />
     </template>
     <template #heading>BuzzISP</template>
@@ -59,34 +86,11 @@ import BuzzPosIcon from './icons/IconBuzzPos.vue'
 
   <WelcomeItem>
     <template #icon>
-      <BuzzTVIcon />
-    </template>
-    <template #heading>BuzzTV</template>
-      Monetize your wall space and do much more with BuzzTV. The 
-      digital signage display network allows location owners to 
-      monetize traffic in their spaces and provide information to 
-      enable their customers to navigate and explore their products and
-      services.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <BuzzAdIcon />
-    </template>
-    <template #heading>BuzzAds</template>
-      BuzzAds are embedded in many of our products and services to 
-      ensure your advertising message reaches your target customer 
-      in the right way. BuzzTV is our main advertising channel opening 
-      up advertising space in multiple locations with large traffic.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
       <BuzzWingIcon />
     </template>
     <template #heading>BuzzWing</template>
       Get a drone for your next surveillance, photoshoot or exploration trip
-      on demand. We have multiple drones suited for various jobs. Our drones all 
+      on demand. We have multiple drones suite for various jobs. Our drones all 
       come with a certified pilot to ensure you get the expected results. Fly Buzz 
       and enjoy the view from above stress free.
   </WelcomeItem>
