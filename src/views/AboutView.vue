@@ -1,7 +1,7 @@
 <template>
 <main>
       <v-container fill-height fluid>
-        <v-row align="center" justify="center" style="height: 100vh;">
+        <v-row align="center" justify="center">
           <v-col cols="12" sm="10" md="10">
             <v-card class="elevation-6">
               <v-toolbar color="hsl(281, 98%, 50%, 0.2)" dark flat>

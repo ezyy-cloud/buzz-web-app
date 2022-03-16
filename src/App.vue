@@ -6,10 +6,11 @@ import HelloWorld from '@/components/HelloWorld.vue'
 <template>
   <header>
 
-    <a style="position: absolute; top: 1vh; left: 0; color: #00ff14; font-size: 1.3rem; font-weight: 500;" href="https://ezyy.cloud">
-      Ezyy Cloud
+    <a style="position: absolute; top: 0; left: 0; color: #00ff14; font-size: 1.3rem; font-weight: 500;" href="https://ezyy.cloud">
+       Ezyy Cloud
     </a>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="110" height="110" />
 
     <div class="wrapper">
       <HelloWorld msg="Buzz" />
