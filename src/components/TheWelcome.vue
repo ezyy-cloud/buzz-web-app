@@ -42,7 +42,7 @@ import BuzzPosIcon from './icons/IconBuzzPos.vue'
       <BuzzAdIcon />
     </template>
     <template #heading>
-      <a href="https://buzzad.ezyy.cloud">BuzzAds</a>
+      <a href="https://buzzads.ezyy.cloud">BuzzAds</a>
     </template>
       BuzzAds are embedded in many of our products and services to 
       ensure your advertising message reaches your target customer 
