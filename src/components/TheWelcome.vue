@@ -105,3 +105,9 @@ import BuzzPosIcon from './icons/IconBuzzPos.vue'
       BuzzPOS can be integrated with your website to ensure unified inventory management.
   </WelcomeItem>
 </template>
+
+<style>
+i {
+  background-color: #AC04FC !important;
+}
+</style>
