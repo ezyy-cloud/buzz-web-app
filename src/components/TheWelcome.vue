@@ -56,7 +56,7 @@ import BuzzPosIcon from './icons/IconBuzzPos.vue'
     </template>
     <template #heading>BuzzISP</template>
       Connectivity has become a the strength of every enterprise.
-      BuzzISP ensures you are connected at home, at work and at your 
+      Utilizing LTE & 5G Technologies, BuzzISP ensures you are connected at home, at work and at your 
       your business. BuzzISP provides the right network solution to suit 
       your needs.
   </WelcomeItem>

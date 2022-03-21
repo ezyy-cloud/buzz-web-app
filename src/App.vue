@@ -10,7 +10,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
       <HelloWorld msg="Buzz" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">Console</RouterLink>
+        <RouterLink to="/login">Console</RouterLink>
       </nav>
     </div>
   </header>
