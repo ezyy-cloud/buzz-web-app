@@ -25,7 +25,7 @@ export default defineComponent({
 
       if (context != null) {
         const paint = () => {
-          context.fillStyle = "rgba(40,36,61,0.05)";
+          context.fillStyle = "rgba(40,36,61,0.1)";
           context.fillRect(0, 0, width, height);
           context.fillStyle = "rgba(255,0,255,1)";
           points = points.map((value, index) => {

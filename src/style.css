@@ -8,7 +8,7 @@
 
 a {
   font-weight: 500;
-  color: #ac05fc;
+  color: rgba(255,0,255);
   text-decoration: inherit;
 }
 a:hover {
@@ -21,7 +21,6 @@ body {
 }
 
 #app {
-  text-align: center;
   position: absolute;
   bottom: 0px;
 }
