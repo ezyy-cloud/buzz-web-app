@@ -4,7 +4,7 @@ let date: Date = new Date();
 
 <template>
   <div class="container">
-    Made by <a href="https://ezyy.cloud"><b>Ezyy Cloud</b></a> -
+    Another <a href="https://ezyy.cloud"><b>Ezyy</b> Cloud</a> -
     {{ date.getFullYear() }}
   </div>
   <v-spacer></v-spacer>
