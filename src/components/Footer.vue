@@ -4,11 +4,13 @@ let date: Date = new Date();
 
 <template>
   <div class="container">
-    Another <a href="https://ezyy.cloud"><b>Ezyy</b> Cloud</a> -
-    {{ date.getFullYear() }}
+    <div>
+      Another <a href="https://ezyy.cloud"><b>Ezyy</b> Cloud</a> -
+      {{ date.getFullYear() }}
+    </div>
+    <v-spacer></v-spacer>
+    <v-btn color="rgba(255,0,255)" class="logIn">Log In</v-btn>
   </div>
-  <v-spacer></v-spacer>
-  <v-btn color="rgba(255,0,255)" class="logIn">Log In</v-btn>
 </template>
 
 <style scoped>
@@ -16,12 +18,13 @@ let date: Date = new Date();
   position: absolute;
   bottom: 0;
   padding-left: 10px;
-  width: 100%;
+  width: 100vw;
   background-color: rgba(0, 0, 0);
   color: rgb(255, 255, 255);
   padding-top: 1vh;
   padding-bottom: 1vh;
 }
+
 .logIn {
   position: absolute;
   bottom: 0;

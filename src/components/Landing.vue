@@ -1,9 +1,11 @@
 <script lang="ts">
 import { defineComponent } from "vue";
+import Footer from "./Footer.vue";
 import Robo from "../assets/index.png";
 
 export default defineComponent({
   components: {
+    Footer,
   },
   setup() {
     return {
@@ -95,6 +97,7 @@ function goTo() {
   </v-container>
 
   <v-img :src="Robo" alt="" class="robo" />
+  <Footer />
 </div>
 </template>
 
