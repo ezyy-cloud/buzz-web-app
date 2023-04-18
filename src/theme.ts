@@ -1,6 +1,11 @@
-import { ThemeDefinition } from 'vuetify';
+import 'vuetify/styles';
+import { createVuetify, ThemeDefinition } from 'vuetify';
+import * as components from 'vuetify/components';
+import * as directives from 'vuetify/directives';
+import { aliases, mdi } from "vuetify/lib/iconsets/mdi";
+import "@mdi/font/css/materialdesignicons.css";
 
-const myCustomLightTheme: ThemeDefinition = {
+const Theme: ThemeDefinition = {
   dark: false,
   colors: {
     background: '#FFFFFF',
@@ -16,4 +21,21 @@ const myCustomLightTheme: ThemeDefinition = {
   }
 };
 
-export default myCustomLightTheme;
+const vuetify = createVuetify({
+  theme: {
+    defaultTheme: 'Theme',
+    themes: {
+      Theme,
+    }
+  },
+  components,
+  directives,
+  icons: {
+    defaultSet: "mdi",
+    aliases,
+    sets: {
+      mdi,
+    },
+  },
+});
+export default vuetify;
