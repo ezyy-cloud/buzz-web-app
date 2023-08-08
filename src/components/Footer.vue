@@ -1,5 +1,5 @@
 <script setup lang="ts">
-let date: Date = new Date();
+  let date: Date = new Date();
 </script>
 
 <template>
@@ -9,7 +9,7 @@ let date: Date = new Date();
       {{ date.getFullYear() }}
     </div>
     <v-spacer></v-spacer>
-    <v-btn color="rgba(255,0,255)" class="logIn">Log In</v-btn>
+    <v-btn @click="$router.push({ name: 'auth' })" color="#AB00FF" class="logIn">Log In</v-btn>
   </div>
 </template>
 
@@ -19,8 +19,8 @@ let date: Date = new Date();
   bottom: 0;
   padding-left: 10px;
   width: 100vw;
-  background-color: rgba(0, 0, 0);
-  color: rgb(255, 255, 255);
+  background-color: #000;
+  color: #FFBC3F;
   padding-top: 1vh;
   padding-bottom: 1vh;
 }
@@ -32,6 +32,6 @@ let date: Date = new Date();
   margin-right: 0px;
   z-index: 4;
   font-family: "Product Sans black", sans-serif;
-  color: rgb(0, 0, 0);
+  color: #FFBC3F;
 }
 </style>

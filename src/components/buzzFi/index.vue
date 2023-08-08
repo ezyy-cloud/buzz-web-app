@@ -1,4 +1,6 @@
 <script lang="ts">
-    export default {}
+export default {}
 </script>
-<template><div>Fi</div></template>
+<template>
+    <router-view></router-view>
+</template>

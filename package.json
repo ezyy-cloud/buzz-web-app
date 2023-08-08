@@ -10,13 +10,22 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.12",
+    "@fawmi/vue-google-maps": "^0.9.79",
     "@mdi/font": "^7.2.96",
+    "@supabase/supabase-js": "^2.26.0",
+    "@vee-validate/yup": "^4.10.6",
     "@vue/apollo-components": "^4.0.0-beta.4",
+    "@vue/apollo-composable": "^4.0.0-beta.8",
     "@vue/apollo-option": "^4.0.0-beta.4",
+    "apexcharts": "^3.41.0",
+    "gql-tag": "^1.0.1",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.12.6",
-    "vue": "^3.2.45",
+    "pinia": "^2.1.4",
+    "vee-validate": "^4.10.6",
+    "vue": "^3.3",
     "vue-router": "^4",
+    "vue3-apexcharts": "^1.4.1",
     "vuetify": "^3.1.6"
   },
   "devDependencies": {

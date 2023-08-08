@@ -8,7 +8,7 @@
 
 a {
   font-weight: 500;
-  color: rgba(255,0,255);
+  color: #AB00FF;
   text-decoration: inherit;
 }
 a:hover {
@@ -17,10 +17,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
 }
 
 #app {
-  position: absolute;
-  bottom: 0px;
 }

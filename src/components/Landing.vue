@@ -26,7 +26,7 @@ export default defineComponent({
         const paint = () => {
           context.fillStyle = "rgba(40,36,61,0.1)";
           context.fillRect(0, 0, width, height);
-          context.fillStyle = "rgba(255,0,255,1)";
+          context.fillStyle = "#AB00FF";
           points = points.map((value, index) => {
             const r = Math.random();
             context.fillText(
@@ -131,11 +131,11 @@ function goTo() {
   -moz-border-radius: 50%;
 
   -webkit-box-shadow: 0 20px 30px rgba(40,36,61, 0.2),
-    inset 0px 10px 30px 5px rgba(255,0,255, 1);
+    inset 0px 10px 30px 5px #AB00FF;
   -moz-box-shadow: 0 20px 30px rgba(40,36,61, 0.2),
-    inset 0px 10px 30px 5px rgba(255,0,255, 1);
+    inset 0px 10px 30px 5px #AB00FF;
   box-shadow: 0 20px 30px rgba(40,36,61, 0.2),
-    inset 0px 10px 30px 5px rgba(255,0,255, 1);
+    inset 0px 10px 30px 5px #AB00FF;
 }
 
 .star:after {
@@ -196,7 +196,7 @@ function goTo() {
   text-align: center;
   font-size: 2vh;
   font-weight: 400;
-  color: #ffffff;
+  color: #FFBC3F;
   font-family: 'Product Sans black', sans-serif;
 }
 
