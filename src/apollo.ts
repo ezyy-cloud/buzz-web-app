@@ -8,7 +8,7 @@ const cache = new InMemoryCache()
 const apolloClient = new ApolloClient({
   // Provide required constructor fields
   cache: cache,
-  uri: 'https://api.ezyy.cloud:2303',
+  uri: 'https://main--ezyy-cloud-supergraph.apollographos.net/graphql',
 
   // Provide some optional constructor fields
   name: 'buzz-webapp-client',
