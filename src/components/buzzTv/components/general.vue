@@ -86,7 +86,7 @@ const addNewGroup = async () => {
         console.log(error)
 
     } finally {
-        userStore.fetchGroups(user.value.id)
+        userStore.fetchGroups()
 
         addGroup.value = false
     }

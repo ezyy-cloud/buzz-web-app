@@ -3,29 +3,8 @@ import { computed, ref } from "vue";
 import { supabase } from './../supabase'
 
 const useUserStore = defineStore('user', () => {
-  const fetchGroups = async (userUid) => {
-    try {
-      const { data: groups, error, status } = await supabase
-        .from("groups")
-        .select("name")
-        .eq("user_uid", userUid)
 
-      if (error && status !== 406) {
-        throw error;
-      }
-
-      setGroups(groups);
-
-    } catch (error) {
-      // Handle the error
-    } finally {
-      // Add any additional code or logic to execute after the try-catch block
-    }
-  }
-
-  const user = ref({
-    id: '',
-  })
+  const user = ref({ id: '' })
 
   const getUser = computed(() => user.value)
 
@@ -58,15 +37,30 @@ const useUserStore = defineStore('user', () => {
     }
   }
 
-  const profile = ref({
-    username: '',
-    avatar_url: '',
-  })
+  const profile = ref({ username: '', avatar_url: '' })
 
   const getProfile = computed(() => profile.value)
 
-  const setProfile = (data) => {
-    profile.value = data
+  const setProfile = (data) => { profile.value = data }
+
+  const fetchGroups = async () => {
+    try {
+      const { data: groups, error, status } = await supabase
+        .from("groups")
+        .select("name")
+        .eq("user_uid", user.value.id)
+
+      if (error && status !== 406) {
+        throw error;
+      }
+
+      setGroups(groups);
+
+    } catch (error) {
+      // Handle the error
+    } finally {
+      // Add any additional code or logic to execute after the try-catch block
+    }
   }
 
   const setGroups = (fetchedGroups) => {
@@ -77,7 +71,7 @@ const useUserStore = defineStore('user', () => {
       groups.value.push(group.name)
     });
 
-    groups.value.sort()
+    groups.value.sort((a, b) => a.localeCompare(b))
   }
 
   const groups = ref(['Default'])
